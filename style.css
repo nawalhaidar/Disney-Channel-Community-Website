@@ -1,0 +1,132 @@
+body {
+    margin: 0%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+.head {
+    color: rgb(44, 140, 224);
+    background-color: rgba(203, 119, 236, 0.082);
+    overflow: auto;
+
+}
+
+.head ul {
+    float: right;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin-top: 50px;
+
+}
+
+.head li {
+    margin-left: 20px;
+    font-size: 25px;
+}
+
+.head a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.head a:hover {
+    color: blueviolet;
+}
+
+.head img {
+    float: left;
+    height: 100px;
+    margin: 20px;
+}
+
+.quote {
+    background-image: url("frozen 3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 90px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    height: max-content;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 5px black;
+}
+
+
+.join {
+    background-color:rgba(203, 119, 236, 0.082);
+    display: flex;
+    color: inherit;
+}
+
+.join div {
+    display: block;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+.join button {
+    align-items: center;
+    display: inline-block;
+    background-color: rgb(44, 140, 224);
+    padding: 20px;
+    width: 200px;
+    border: 4px double white;
+    border-radius: 10px;
+    font-size: 28px;
+    cursor: pointer;
+
+}
+
+.join button a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+button:hover {
+    background-color: blueviolet;
+}
+
+.join img {
+    align-items: left;
+    height: 150px;
+    max-width: fit-content;
+}
+
+.title{
+    text-align: center;
+    background-color: rgba(59, 39, 66, 0.151);
+    color:rgb(44, 140, 224);
+    overflow: hidden;
+}
+
+.shows{
+    overflow:auto;
+    white-space: nowrap;
+}
+
+.shows img{
+    width:50 px;
+    height: 400px;
+}
+.movies{
+    overflow:auto;
+    white-space: nowrap;
+}
+
+.movies img{
+    width:50 px;
+    height: 400px;
+}
+
+
+footer{
+    text-align: center;
+    background-color: rgba(203, 119, 236, 0.082);
+    overflow: hidden;
+}
+
+
+
